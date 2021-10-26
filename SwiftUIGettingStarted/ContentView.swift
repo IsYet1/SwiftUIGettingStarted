@@ -21,19 +21,9 @@ struct ContentView: View {
                 Text("Senior Software Engineer")
                     .italic()
                 Spacer()
-                HStack {
-                    Image(systemName: "envelope.fill")
-                        .foregroundColor(.orange)
-                    Text("jonathan@company.com")
-                }
-                HStack {Image(systemName: "link")
-                        .foregroundColor(.orange)
-                    Text("http://Company.com")
-                }
-                HStack {Image(systemName: "location.fill")
-                        .foregroundColor(.orange)
-                    Text("Company address here")
-                }
+                ImageLabelView(imageName: "envelope.fill", text: .constant("jonathan@company.com"))
+                ImageLabelView(imageName: "link", text: .constant("http://company.com"))
+                ImageLabelView(imageName: "location.fill", text: .constant("Company address here"))
                 .padding(.bottom)
 
             }
@@ -49,3 +39,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
