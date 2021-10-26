@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F66EEB072728B2DA0050BB6E /* ImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66EEB062728B2DA0050BB6E /* ImageLabelView.swift */; };
+		F66EEB092728B5E90050BB6E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66EEB082728B5E90050BB6E /* User.swift */; };
+		F66EEB0B2728B7150050BB6E /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66EEB0A2728B7150050BB6E /* Visit.swift */; };
+		F66EEB0D2728B7640050BB6E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66EEB0C2728B7640050BB6E /* CardView.swift */; };
 		F6F4866826AF889A00F7153D /* SwiftUIGettingStartedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4866726AF889A00F7153D /* SwiftUIGettingStartedApp.swift */; };
 		F6F4866A26AF889A00F7153D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4866926AF889A00F7153D /* ContentView.swift */; };
 		F6F4866C26AF889A00F7153D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F4866B26AF889A00F7153D /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 
 /* Begin PBXFileReference section */
 		F66EEB062728B2DA0050BB6E /* ImageLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelView.swift; sourceTree = "<group>"; };
+		F66EEB082728B5E90050BB6E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F66EEB0A2728B7150050BB6E /* Visit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visit.swift; sourceTree = "<group>"; };
+		F66EEB0C2728B7640050BB6E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F6F4866426AF889A00F7153D /* SwiftUIGettingStarted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIGettingStarted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F4866726AF889A00F7153D /* SwiftUIGettingStartedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGettingStartedApp.swift; sourceTree = "<group>"; };
 		F6F4866926AF889A00F7153D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +64,9 @@
 				F6F4866B26AF889A00F7153D /* Assets.xcassets */,
 				F6F4866D26AF889A00F7153D /* Preview Content */,
 				F66EEB062728B2DA0050BB6E /* ImageLabelView.swift */,
+				F66EEB082728B5E90050BB6E /* User.swift */,
+				F66EEB0A2728B7150050BB6E /* Visit.swift */,
+				F66EEB0C2728B7640050BB6E /* CardView.swift */,
 			);
 			path = SwiftUIGettingStarted;
 			sourceTree = "<group>";
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66EEB092728B5E90050BB6E /* User.swift in Sources */,
 				F66EEB072728B2DA0050BB6E /* ImageLabelView.swift in Sources */,
 				F6F4866A26AF889A00F7153D /* ContentView.swift in Sources */,
+				F66EEB0B2728B7150050BB6E /* Visit.swift in Sources */,
+				F66EEB0D2728B7640050BB6E /* CardView.swift in Sources */,
 				F6F4866826AF889A00F7153D /* SwiftUIGettingStartedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
